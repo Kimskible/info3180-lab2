@@ -1,3 +1,60 @@
 body {
     padding-top: 5rem;
+} 
+
+.body_block{
+    text-align: center;
+    background-color: #fff;
+    border:.5px solid rgb(158, 157, 157);
+    border-radius: 8px;
+    height: 300%;
+    width: 500px;
 }
+/*Top of profile*/
+.top{
+    background-image: linear-gradient(360deg, #535365 0%, #557365 80%);
+    padding-bottom: 10px;
+}
+
+.photo{
+    width: 50%;
+}
+
+li {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+h1{
+    font-size: 20px;
+    color: #fff;
+}
+
+/*Bottom of card*/
+.bottom{
+    padding-top: 5px;
+    margin: 20px 50px;
+}
+
+#layout{
+    color: #000;
+}
+
+p{
+    text-align: left;    
+    padding-bottom: 30px;
+    line-height: 1.5em;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+ 
