@@ -3,29 +3,45 @@
 
 {% block main %}
 <div class="body_block">
+
   <div class="top">
-    <div id="info">
       <img class="photo" src="{{ url_for("static", filename="avatar.png") }}">
       <h1> Kimberly Stewart</h1>
 
-      <ul>
+      <ul class="format">
         <li>@kimOS</li>
         <li>Kingston, Jamaica</li>
-        <li>Date Joined</li>
+        <li> Joined {{ joined }}  </li>
       </ul>
 
-    </div>
   </div>
+  
 
-  <div class="bottom">
+  <div class="bio">
       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, esse dignissimos possimus earum tempora aliquam iste 
         nobis minus sunt excepturi. Consectetur dolores ad animi aliquam autem harum nostrum voluptate doloremque.</p>
- 
-      <h3 class="cards">Post</h3>
-      <h3 class="cards">Following</h3>
-      <h3 class="cards">Followers</h3>
-
   </div>
-</div>
+
+    <ul class="flex">
+      <li class="listing">
+        <p class="amt">7</p>
+        <p class="label">Post</p>
+      </li>
+
+      <li class="listing">
+        <p class="amt">100</p>
+        <p class="label">Following</p>
+      </li>
+
+      <li class="listing">
+        <p class="amt">250</p>
+        <p class="label">Followers</p>
+      </li>
+    </ul>
+
+
+    <button class="btn"> Follow </button>
+  </div>
+
 {% endblock %}
 
